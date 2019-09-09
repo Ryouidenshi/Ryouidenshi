@@ -1,0 +1,7 @@
+C:\Users\Stas74\source\repos\semestr1\obj\Debug\semestr1.csprojAssemblyReference.cache
+C:\Users\Stas74\source\repos\semestr1\obj\Debug\semestr1.csproj.CoreCompileInputs.cache
+C:\Users\Stas74\source\repos\semestr1\bin\Debug\semestr1.exe.config
+C:\Users\Stas74\source\repos\semestr1\bin\Debug\semestr1.exe
+C:\Users\Stas74\source\repos\semestr1\bin\Debug\semestr1.pdb
+C:\Users\Stas74\source\repos\semestr1\obj\Debug\semestr1.exe
+C:\Users\Stas74\source\repos\semestr1\obj\Debug\semestr1.pdb
