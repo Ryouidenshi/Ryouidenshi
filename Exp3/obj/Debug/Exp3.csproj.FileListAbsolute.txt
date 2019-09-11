@@ -1,0 +1,7 @@
+C:\Users\Stas74\source\repos\Exp3\bin\Debug\Exp3.exe.config
+C:\Users\Stas74\source\repos\Exp3\bin\Debug\Exp3.exe
+C:\Users\Stas74\source\repos\Exp3\bin\Debug\Exp3.pdb
+C:\Users\Stas74\source\repos\Exp3\obj\Debug\Exp3.csprojAssemblyReference.cache
+C:\Users\Stas74\source\repos\Exp3\obj\Debug\Exp3.csproj.CoreCompileInputs.cache
+C:\Users\Stas74\source\repos\Exp3\obj\Debug\Exp3.exe
+C:\Users\Stas74\source\repos\Exp3\obj\Debug\Exp3.pdb

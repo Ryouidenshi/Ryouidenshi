@@ -1,0 +1,7 @@
+C:\Users\Stas74\source\repos\Exp4(2variant)\bin\Debug\Exp4(2variant).exe.config
+C:\Users\Stas74\source\repos\Exp4(2variant)\bin\Debug\Exp4(2variant).exe
+C:\Users\Stas74\source\repos\Exp4(2variant)\bin\Debug\Exp4(2variant).pdb
+C:\Users\Stas74\source\repos\Exp4(2variant)\obj\Debug\Exp4(2variant).csprojAssemblyReference.cache
+C:\Users\Stas74\source\repos\Exp4(2variant)\obj\Debug\Exp4(2variant).csproj.CoreCompileInputs.cache
+C:\Users\Stas74\source\repos\Exp4(2variant)\obj\Debug\Exp4(2variant).exe
+C:\Users\Stas74\source\repos\Exp4(2variant)\obj\Debug\Exp4(2variant).pdb
