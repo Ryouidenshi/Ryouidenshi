@@ -1,0 +1,6 @@
+c:\users\student\documents\visual studio 2015\Projects\Procents\Procents\bin\Debug\Procents.exe.config
+c:\users\student\documents\visual studio 2015\Projects\Procents\Procents\obj\Debug\Procents.csprojResolveAssemblyReference.cache
+c:\users\student\documents\visual studio 2015\Projects\Procents\Procents\bin\Debug\Procents.exe
+c:\users\student\documents\visual studio 2015\Projects\Procents\Procents\bin\Debug\Procents.pdb
+c:\users\student\documents\visual studio 2015\Projects\Procents\Procents\obj\Debug\Procents.exe
+c:\users\student\documents\visual studio 2015\Projects\Procents\Procents\obj\Debug\Procents.pdb
