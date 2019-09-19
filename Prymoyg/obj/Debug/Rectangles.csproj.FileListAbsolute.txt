@@ -1,0 +1,7 @@
+C:\Users\student\Documents\Visual Studio 2015\Projects\Prymoyg\bin\Debug\Rectangles.exe.config
+C:\Users\student\Documents\Visual Studio 2015\Projects\Prymoyg\bin\Debug\Rectangles.exe
+C:\Users\student\Documents\Visual Studio 2015\Projects\Prymoyg\bin\Debug\Rectangles.pdb
+C:\Users\student\Documents\Visual Studio 2015\Projects\Prymoyg\bin\Debug\TestingRoom.dll
+C:\Users\student\Documents\Visual Studio 2015\Projects\Prymoyg\obj\Debug\Rectangles.csprojResolveAssemblyReference.cache
+C:\Users\student\Documents\Visual Studio 2015\Projects\Prymoyg\obj\Debug\Rectangles.exe
+C:\Users\student\Documents\Visual Studio 2015\Projects\Prymoyg\obj\Debug\Rectangles.pdb
