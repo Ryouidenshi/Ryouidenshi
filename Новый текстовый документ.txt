@@ -1,0 +1,38 @@
+using System;
+
+namespace DistanceTask
+{
+    public static class DistanceTask
+    {
+        public static double GetDistanceToSegment(double ax, double ay, double bx, double by, double x, double y)
+        {
+        	double dX = (bx - ax);
+        	double dY = (by - ay);
+        	double toFirstDot = Math.Sqrt((ax - x)*(ax-x) + (ay - y)*(ay-y));
+        	double toSecondDot = Math.Sqrt((bx - x)*(bx - x) + (by - y) * (by - y));
+        	if (dX == 0)
+            {
+            	if (y > Math.Max(ay, by) || y < Math.Min(ay, by))
+                	return Math.Min(toFirstDot, toSecondDot);
+            	else return Math.Abs(ax - x);
+            }
+        	else if (dY == 0)
+            {
+            	if (x > Math.Max(ax, bx) || x < Math.Min(ax, bx))
+                	return Math.Min(toFirstDot, toSecondDot);
+            	else return Math.Abs(ay - y);
+            }
+        	else
+            {
+            	double k = dY / dX;
+            	double shift = ay - k * ax;
+            	double k1 = -1 / k;
+            	double shift1 = y - (k1 * x);
+            	if (((shift1 - shift) / (k - k1) < Math.Min(ax, bx)) ||
+					((shift1 - shift) / (k - k1) > Math.Max(ax, bx)))
+                	return Math.Min(toFirstDot, toSecondDot);
+            	else return Math.Abs(((dX*(y - ay))-(dY*(x-ax)))/(Math.Sqrt((dX*dX)+(dY*dY)))); 
+            }
+        }
+    }
+}
