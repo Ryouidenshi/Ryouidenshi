@@ -1,0 +1,7 @@
+C:\Users\Stas74\Documents\Visual Studio 2019\Projects\MiniGame\bin\Debug\MiniGame.exe.config
+C:\Users\Stas74\Documents\Visual Studio 2019\Projects\MiniGame\bin\Debug\MiniGame.exe
+C:\Users\Stas74\Documents\Visual Studio 2019\Projects\MiniGame\bin\Debug\MiniGame.pdb
+C:\Users\Stas74\Documents\Visual Studio 2019\Projects\MiniGame\obj\Debug\MiniGame.csprojAssemblyReference.cache
+C:\Users\Stas74\Documents\Visual Studio 2019\Projects\MiniGame\obj\Debug\MiniGame.csproj.CoreCompileInputs.cache
+C:\Users\Stas74\Documents\Visual Studio 2019\Projects\MiniGame\obj\Debug\MiniGame.exe
+C:\Users\Stas74\Documents\Visual Studio 2019\Projects\MiniGame\obj\Debug\MiniGame.pdb
