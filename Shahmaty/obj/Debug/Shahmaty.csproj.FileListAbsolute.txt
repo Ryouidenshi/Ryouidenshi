@@ -1,0 +1,7 @@
+C:\Users\Stas74\source\repos\Shahmaty\bin\Debug\Shahmaty.exe.config
+C:\Users\Stas74\source\repos\Shahmaty\bin\Debug\Shahmaty.exe
+C:\Users\Stas74\source\repos\Shahmaty\bin\Debug\Shahmaty.pdb
+C:\Users\Stas74\source\repos\Shahmaty\obj\Debug\Shahmaty.csprojAssemblyReference.cache
+C:\Users\Stas74\source\repos\Shahmaty\obj\Debug\Shahmaty.exe
+C:\Users\Stas74\source\repos\Shahmaty\obj\Debug\Shahmaty.pdb
+C:\Users\Stas74\source\repos\Shahmaty\obj\Debug\Shahmaty.csproj.CoreCompileInputs.cache
