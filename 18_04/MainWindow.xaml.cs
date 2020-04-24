@@ -20,61 +20,78 @@ namespace _18_04
             CrashWindow crashWindow = new CrashWindow();
             crashWindow.Show();
             this.Close();
-            playerInMenu.Stop();
-            playerScreamer.Open(new Uri("C:/Users/Stas74/Desktop/18_04/skrip.mp3", UriKind.RelativeOrAbsolute));
+            cakeBoyInMenu.Stop();
+            playerScreamer.Open(new Uri("C:/Users/Stas74/Desktop/18_04/Music/skrip.mp3", UriKind.RelativeOrAbsolute));
             playerScreamer.Play();
         }
 
-        string size;
-        string massive;
-        bool goNextLevel = false;
-       private void Checked(object sender, RoutedEventArgs e)
-       {
+        private string Size { get; set; }
+        private string Massive { get; set; }
+        private bool GoNextLevel { get; set; }
+
+        private void Checked(object sender, RoutedEventArgs e)
+        {
             System.Windows.Controls.RadioButton pressed = (System.Windows.Controls.RadioButton)sender;
-            if (pressed.IsChecked==true && pressed.Content.ToString() == "Stack")
-                massive = "Stack";
-            if (pressed.IsChecked == true && pressed.Content.ToString() == "Double")
-                size = "Double";
-            if (pressed.IsChecked == true && pressed.Content.ToString() == "Int")
-                size = "Int";
-            if (pressed.IsChecked == true && pressed.Content.ToString() == "Long")
-                size = "Long";
-            if (pressed.IsChecked == true && pressed.Content.ToString() == "List")
-                massive = "List";
-            if (pressed.IsChecked == true && pressed.Content.ToString() == "Dictionary")
-                massive = "Dictionary";
-            if (size == "Double" && massive == "Stack")
-                goNextLevel = true;
+            switch (pressed.Content.ToString())
+            {
+                case "Stack":
+                    Massive = "Stack";
+                    break;
+                case "Double":
+                    Size = "Double";
+                    break;
+                case "Int":
+                    Size = "Int";
+                    break;
+                case "Long":
+                    Size = "Long";
+                    break;
+                case "List":
+                    Massive = "List";
+                    break;
+                case "Dictionary":
+                    Massive = "Dictionary";
+                    break;
+            }
+            if (Size == "Double" && Massive == "Stack")
+                GoNextLevel = true;
         }
 
         private void ButtonToMoveNextLevelIfTrueAnswer(object sender, RoutedEventArgs e)
         {
             LevelSecond levelSecond = new LevelSecond();
-            CrashWindow crashWindow;
-            if (goNextLevel)
+            if (GoNextLevel)
             {
                 this.Close();
-                playerInMenu.Stop();
+                cakeBoyInMenu.Stop();
                 levelSecond.Show();
             }
             else
                 System.Windows.MessageBox.Show("Вы ответили неверно");
         }
-        readonly MediaPlayer playerInMenu = new MediaPlayer();
-        bool playing = false;
+
+        readonly MediaPlayer cakeBoyInMenu = new MediaPlayer();
+        private bool Playing { get; set; }
+
+        private bool FileIsOpened { get; set; }
+
         private void PlayMusic(object sender, RoutedEventArgs e)
-        {        
-            if (!playing)
+        {
+            if (!FileIsOpened)
             {
-                playerInMenu.MediaFailed += (s, k) => System.Windows.MessageBox.Show("Error");
-                playerInMenu.Open(new Uri("C:/Users/Stas74/Desktop/18_04/music.mp3", UriKind.RelativeOrAbsolute));
-                playerInMenu.Play();
-                playing = true;
+                cakeBoyInMenu.Open(new Uri("C:/Users/Stas74/Desktop/18_04/Music/music.mp3", UriKind.RelativeOrAbsolute));
+                FileIsOpened = true;
+            }
+
+            if (!Playing)
+            {
+                cakeBoyInMenu.Play();
+                Playing = true;
             }
             else
             {
-                playerInMenu.Stop();
-                playing = false;
+                cakeBoyInMenu.Pause();
+                Playing = false;
             }
         }
 

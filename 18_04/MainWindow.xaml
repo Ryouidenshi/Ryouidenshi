@@ -46,7 +46,7 @@
                     <TranslateTransform/>
                 </TransformGroup>
             </Button.RenderTransform>
-            <Image Source="hentai.png" Height="376" Width="886" RenderTransformOrigin="0.5,0.5">
+            <Image Source="C:\Users\Stas74\Desktop\18_04\Images\hentai.png" Height="376" Width="886" RenderTransformOrigin="0.5,0.5">
                 <Image.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>

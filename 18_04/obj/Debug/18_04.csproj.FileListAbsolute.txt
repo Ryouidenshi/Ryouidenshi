@@ -35,3 +35,5 @@ C:\Users\Stas74\Desktop\18_04\obj\Debug\18_04.exe
 C:\Users\Stas74\Desktop\18_04\obj\Debug\18_04.pdb
 C:\Users\Stas74\Desktop\18_04\obj\Debug\LevelSecond.g.cs
 C:\Users\Stas74\Desktop\18_04\obj\Debug\LevelSecond.baml
+C:\Users\Stas74\Desktop\18_04\obj\Debug\Window1.g.cs
+C:\Users\Stas74\Desktop\18_04\obj\Debug\Window1.baml

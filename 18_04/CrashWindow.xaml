@@ -9,7 +9,7 @@
         WindowState="Maximized">
 
     <Grid>
-        <Image HorizontalAlignment="Left" Height="1604" Margin="-1190,-450,-1373,-724" VerticalAlignment="Top" Width="3429" Source="image.png" RenderTransformOrigin="0.5,0.5">
+        <Image HorizontalAlignment="Left" Height="1604" Margin="-1190,-450,-1373,-724" VerticalAlignment="Top" Width="3429" Source="C:\Users\Stas74\Desktop\18_04\Images\image.png" RenderTransformOrigin="0.5,0.5">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>

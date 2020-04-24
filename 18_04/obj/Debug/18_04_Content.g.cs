@@ -8,7 +8,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("music.mp3")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("skrip.mp3")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("music/fourthtrack.mp3")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("music/thirdtrack.mp3")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("music/firsttrack.mp3")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("music/music.mp3")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("music/secondtrack.mp3")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("music/skrip.mp3")]
 
 

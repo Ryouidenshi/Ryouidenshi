@@ -63,6 +63,9 @@
     <Compile Include="LevelSecond.xaml.cs">
       <DependentUpon>LevelSecond.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Window1.xaml.cs">
+      <DependentUpon>Window1.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -80,6 +83,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="LevelSecond.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -110,21 +117,24 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Images\" />
+    <Resource Include="Images\image.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="image.png" />
+    <Resource Include="Images\hentai.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="hentai.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="gif.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="music.mp3" />
-    <Content Include="skrip.mp3" />
+    <Resource Include="Images\StopMusic.png" />
+    <Resource Include="Images\Me.jpg" />
+    <Content Include="Music\fourthTrack.mp3" />
+    <Content Include="Music\thirdTrack.mp3" />
+    <Resource Include="Images\music_background.jpg" />
+    <Resource Include="Images\char_play.png" />
+    <Content Include="Music\firstTrack.mp3" />
+    <Content Include="Music\music.mp3" />
+    <Content Include="Music\secondTrack.mp3" />
+    <Content Include="Music\skrip.mp3" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
