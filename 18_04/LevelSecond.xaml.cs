@@ -22,11 +22,6 @@ namespace _18_04
         public LevelSecond()
         {
             InitializeComponent();
-            StopMusic.Visibility = Visibility.Hidden;
-            var levelThird = new Window1();
-            KeyOnBoard.Visibility = Visibility.Hidden;
-            if (password.Text == randomAnswer.ToString())
-                this.Close();
         }
 
         public int randomAnswer = new Random().Next(1000);
@@ -79,6 +74,7 @@ namespace _18_04
             KeyOnBoard.Visibility = Visibility.Hidden;
             text1.Visibility = Visibility.Hidden;
             text2.Visibility = Visibility.Visible;
+            Coffe.Visibility = Visibility.Visible;
         }
 
         private void Coffe_Click(object sender, RoutedEventArgs e)
@@ -120,6 +116,17 @@ namespace _18_04
             {
                 playMusic.Pause();
                 Playing = false;
+            }
+        }
+
+        private void GoNextLevel_Click(object sender, RoutedEventArgs e)
+        {
+            var levelThird = new Window1();
+            if (password.Text == randomAnswer.ToString())
+            {
+                this.Close();
+                playMusic.Close();
+                levelThird.Show();
             }
         }
     }
