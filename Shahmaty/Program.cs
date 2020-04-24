@@ -10,7 +10,7 @@ namespace Shahmaty
         {
             return (Math.Abs(begin[1]-end[1])==1 || Math.Abs(begin[0] - end[0]) == 1);
         }
-//ff
+
         public static bool IsHorse(string[] str)
         {
             var begin = NumberString(str[1]);
