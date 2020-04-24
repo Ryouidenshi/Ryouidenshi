@@ -1,0 +1,98 @@
+﻿<Window x:Class="_18_04.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_18_04"
+        mc:Ignorable="d" 
+        Title="Адская Дрочильня" Height="450" Width="800"
+        Background="BurlyWood">
+
+    <Grid>
+        <Grid.Effect>
+            <DropShadowEffect Color="#FF574C45" RenderingBias="Quality" ShadowDepth="4"/>
+        </Grid.Effect>
+        <RadioButton Content="Stack" 
+                     GroupName="Massives" Checked="Checked"             
+                     x:Name="firstWindowLabelStack"
+                     HorizontalAlignment="Left" Margin="26,81,0,0" VerticalAlignment="Top" Height="50" Width="216" FontSize="24"/>
+        <RadioButton Content="List" 
+                     GroupName="Massives" Checked="Checked"  
+                     x:Name="secondWindowLabelList" 
+                     HorizontalAlignment="Left" Margin="26,162,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <RadioButton Content="Dictionary" 
+                     GroupName="Massives" Checked="Checked"  
+                     x:Name="thirdWindowLabelDictionary" 
+                     HorizontalAlignment="Left" Margin="26,199,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <RadioButton Content="Int"
+                     GroupName="Size"
+                     Checked="Checked"  
+                     x:Name="firstWindowLabelInt" HorizontalAlignment="Left" Margin="26,121,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <RadioButton Content="Long"
+                     GroupName="Size" Checked="Checked"  
+                     x:Name="secondWindowLabelLong" 
+                     HorizontalAlignment="Left" Margin="26,241,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <RadioButton Content="Double"
+                     GroupName="Size" Checked="Checked"  
+                     x:Name="thirdWindowLabelDouble" 
+                     HorizontalAlignment="Left" Margin="26,282,0,0" VerticalAlignment="Top" FontSize="24"/>
+
+        <Button HorizontalAlignment="Left" Margin="372,92,0,0" VerticalAlignment="Top" Width="389" RenderTransformOrigin="0.5,0.5" Height="298" Click="PlayScreamer" FontFamily="Tahoma" FontSize="22">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.045"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+            <Image Source="C:\Users\Stas74\Desktop\18_04\Images\hentai.png" Height="376" Width="886" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-0.033"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+        </Button>
+        <Button Content="Answer" x:Name="button"  Margin="26,319,572,10" Click="ButtonToMoveNextLevelIfTrueAnswer" BorderBrush="#FFF51212" Foreground="Black" FontFamily="Informal Roman" FontSize="60">
+            <Button.Effect>
+                <DropShadowEffect Color="White" Direction="313" Opacity="0.86" RenderingBias="Quality" ShadowDepth="4"/>
+            </Button.Effect>
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                    <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                    <GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+                    <GradientStop Color="#FF18083C" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <TextBlock HorizontalAlignment="Left" Margin="26,5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="71" Width="756" Foreground="#FF936363" FontFamily="ObelixPro" FontSize="20" TextDecorations="{x:Null}"><Run Foreground="#FFFF1348" Text="В"/><Run Foreground="#FFFF4D31" Text="ы"/><Run Foreground="#FF19B435" Text="б"/><Run Foreground="#FFDCFB16" Text="и"/><Run Foreground="#FF165697" Text="р"/><Run Foreground="#FF7E70AE" Text="и"/><Run Foreground="#FF42F13A" Text="т"/><Run Foreground="#FFEC5E1C" Text="е"/><Run Text=" "/><Run Foreground="#FFA9C335" Text="с"/><Run Foreground="#FF54EC27" Text="а"/><Run Foreground="#FF267DB9" Text="м"/><Run Foreground="#FF61B0FF" Text="ы"/><Run Foreground="#FF241846" Text="й"/><Run Text=" "/><Run Foreground="#FF19B435" Text="б"/><Run Foreground="#FFE63131" Text="о"/><Run Foreground="#FFA62929" Text="л"/><Run Foreground="#FFD9EE0B" Text="ь"/><Run Foreground="#FF6796A4" Text="ш"/><Run Foreground="#FF2D4995" Text="о"/><Run Foreground="#FF67AC22" Text="й"/><Run Text=" "/><Run Foreground="#FF4DD625" Text="ч"/><Run Foreground="#FF179545" Text="и"/><Run Foreground="#FF486FB4" Text="с"/><Run Foreground="#FFC1D124" Text="л"/><Run Foreground="#FF33518F" Text="о"/><Run Foreground="#FF3FBF32" Text="в"/><Run Foreground="#FF40257A" Text="о"/><Run Foreground="#FFD6711D" Text="й"/><Run Text=" "/><Run Foreground="#FF849363" Text="т"/><Run Foreground="#FF304B08" Text="и"/><Run Foreground="#FF6C6393" Text="п"/><Run Text=" "/><Run Foreground="#FFD8C25B" Text="д"/><Run Foreground="#FF1EA630" Text="а"/><Run Foreground="#FFBD9F9F" Text="н"/><Run Foreground="#FF4B4242" Text="н"/><Run Foreground="#FF83E027" Text="ы"/><Run Foreground="#FF0C2966" Text="х"/><Run Text=" "/><Run Foreground="#FF6E1F1F" Text="и"/><Run Text=" "/><Run Foreground="#FF95D653" Text="о"/><Run Foreground="#FF23610C" Text="б"/><Run Foreground="#FF488569" Text="ъ"/><Run Foreground="#FF80EA59" Text="е"/><Run Foreground="#FF73781A" Text="к"/><Run Foreground="#FFE2DC9E" Text="т"/><Run Foreground="#FF20E255" Text=","/><Run Text=" "/><Run Foreground="#FF3359DA" Text="к"/><Run Foreground="#FF89F1CB" Text="о"/><Run Foreground="#FF2C6BDA" Text="т"/><Run Foreground="#FF7FCF0C" Text="о"/><Run Foreground="#FFDEE640" Text="р"/><Run Foreground="#FFE68523" Text="ы"/><Run Foreground="#FFF31818" Text="й"/><Run Text=" "/><Run Foreground="#FF31D6A9" Text="и"/><Run Foreground="#FF5E4DAC" Text="м"/><Run Foreground="#FF839C5F" Text="е"/><Run Foreground="#FF25AEAE" Text="е"/><Run Foreground="#FF728CB2" Text="т"/><Run Text=" "/><Run Foreground="#FF87F030" Text="м"/><Run Foreground="#FF4B3BB0" Text="е"/><Run Foreground="#FFFF3198" Text="т"/><Run Foreground="#FFCBE620" Text="о"/><Run Foreground="#FFFDC918" Text="д"/><Run Foreground="#FFEC1616" Text="ы"/><Run Text=" "/><Run Foreground="#FF1E17B2" Text="P"/><Run Foreground="#FFEC1818" Text="o"/><Run Foreground="#FF622A89" Text="p"/><Run Text=", "/><Run Foreground="#FFD11F1F" Text="P"/><Run Foreground="#FF81D41E" Text="u"/><Run Foreground="#FF4A5508" Text="s"/><Run Foreground="#FF341818" Text="h"/><Run Text=" "/><Run Foreground="#FF30F087" Text="и"/><Run Text=" "/><Run Foreground="#FF423678" Text="P"/><Run Foreground="#FF1A6CB0" Text="e"/><Run Foreground="#FFC2D8BD" Text="e"/><Run Foreground="#FF59DE0D" Text="k"/><Run Foreground="#FF250707" Text="."/></TextBlock>
+        <Button Content="Relax, my boy" HorizontalAlignment="Left" Margin="114,128,0,0" VerticalAlignment="Top" Width="241" Click="PlayMusic" Height="53" FontFamily="Palace Script MT" FontSize="48" BorderBrush="#FF54574C" Foreground="#FF611B1B" FontWeight="Bold">
+            <Button.Effect>
+                <DropShadowEffect Color="#FF897474" ShadowDepth="5"/>
+            </Button.Effect>
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                    <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                    <GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+                    <GradientStop Color="#FFFF3374" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="Sorry za mat" HorizontalAlignment="Left" Margin="212,212,0,0" VerticalAlignment="Top" Width="142" Height="60" BorderBrush="White" Foreground="Black" FontSize="36" FontFamily="Kunstler Script" Click="Button_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                    <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                    <GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+                    <GradientStop Color="#FFBD154A" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+    </Grid>
+</Window>
